@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Form</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="email.png" type="image/png" sizes="16x16">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="main.js"></script>
+</head>
+<body>
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" action="https://formspree.io/Jrgt04@yahoo.com" method="POST">
+				<span class="contact100-form-title">
+					Send Me A Message
+				</span>
+				<label>
+				<div class="wrap-input100 validate-input" data-validate="Please enter your name">
+					<input class="input100 name" type="text" name="name" placeholder="Full Name">
+					<span class="focus-input100"></span>
+				</div>
+				</label>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please enter your email: e@a.x">
+					<input class="input100 email" type="email" name="email" placeholder="E-mail">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please enter your phone">
+					<input class="input100 subject" type="text" name="text" placeholder="Phone">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please enter your message">
+					<textarea class="input100 message" name="message" placeholder="Your Message"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn" type="submit">
+						<span>
+							<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+							Send
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

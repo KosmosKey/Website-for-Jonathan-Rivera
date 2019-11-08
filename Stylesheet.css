@@ -1,0 +1,298 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navbar-brand img {
+    width: 150px;
+    padding-left: 20px;
+}
+
+
+
+#navbar {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+#navbar li {
+    padding: 0 15px;
+}
+
+.carousel-item img {
+    background-size: cover;
+    display: table;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+.paragraph-fluid {
+    margin: 0;
+    margin-bottom: 25%;
+}
+
+.carousel-inner h1 {
+    font-size: 6.5rem;
+    color: white;
+    margin-top: 20%;
+    color: #ffffff; 
+    font-family: 'Raleway',sans-serif; 
+    font-weight: 800; 
+    text-transform: uppercase;                                                    
+}
+
+.carousel-inner p {
+    font-size: 2.5rem;
+    color: white;
+    margin-top: -.5%;
+    letter-spacing: 1rem;
+    color: #ffffff; 
+    font-family: 'Raleway',sans-serif; 
+    font-weight: 500; 
+    text-transform: uppercase;   
+}
+.container-fluid {
+    margin: 4rem;
+}
+
+.rounded {
+    width: 30%;
+}
+
+.rounded2{
+    width: 27%;
+}
+
+.rounded3 {
+    width: 30%;
+    margin-top: 15rem;
+}
+
+.container-fluid img {
+    display: block;
+}
+
+.third-image {
+    padding-top: 16.5%;
+}
+
+.third-image:hover{
+    background-size: 130%   ;
+}
+
+.social-links {
+    margin: 0rem;
+}
+
+.navbar-nav li {
+    padding: 0 1px; 
+ }
+
+ .container-fluid h1 {
+    font-family: "montserrat";
+    font-size: 2.3rem;
+ }
+ 
+ .navbar-nav li a {
+     color: #fff !important;
+     font-weight: bold;
+     float: right;
+     text-align: left;
+     font-size: 18px;
+ }
+
+ .middle {
+     margin-left: 4rem;
+     padding-top: 1rem;
+     display: block;
+ }
+
+ .facebook {
+     margin-right: 2rem;
+ }
+
+ .instagram {
+     margin-left: 2rem;
+ }
+
+ .title {
+     padding-top: 3rem;
+ }
+
+#social-media {
+    background: white;
+    padding: 100px 0;
+}
+
+#social-media h4 {
+    font-size: 2.4rem;
+    font-family: "montserrat";
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 100px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-25px);
+} 
+
+#footer {
+    width: 85rem;
+}
+
+.container2 {
+    width: 300px;
+    height: 200px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.container2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-box .fa {
+    font-size: 20px;
+    color: black;
+    height: 40px;
+    padding: 7px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 2px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer-box .fa:hover {
+    transform: translateY(-10px);
+}
+.footer-box p {
+    font-family: sans-serif;
+}
+
+.footer-box h2 {
+    letter-spacing: .4rem;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.fa-envelope {
+    margin-left: -2rem;
+}
+
+.fa-phone {
+    margin-right: 2rem;
+}
+
+.fa-icon-innter-text {
+    font-family: sans-serif;
+}
+
+.paragraph {
+    margin-top: 7rem;
+}
+
+.container small {
+    margin: 25px;
+}
+
+.text-developer {
+    margin-top: 5rem;
+}
+
+.btn-success {
+    height: 3rem;
+    width: 10rem;
+    font-size: 30px;
+    font-family: "montserrat";
+
+}
+
+.btn-success:hover{
+    transform: translateY(-5px);
+} 
+
+.text-above-the-button {
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    font-family: "montserrat";
+}
+
+@media (max-width: 1281px) {
+    
+    
+    .carousel-inner h1 {
+        font-size: 4.5rem;
+        color: white;
+        margin-top: 20%;
+        color: #ffffff; 
+        font-family: 'Raleway',sans-serif; 
+        font-weight: 800; 
+     }
+    
+    
+  }
+
+  @media (max-width:800px) {
+    
+    
+    .carousel-inner h1 {
+        font-size: 4rem;
+        color: white;
+        margin-top: 20%;
+        color: #ffffff; 
+        font-family: 'Raleway',sans-serif; 
+        font-weight: 800; 
+     }
+
+     .carousel-inner p {
+        font-size: 1rem;
+        color: white;
+        margin-top: -.5%;
+        letter-spacing: 1rem;
+        color: #ffffff; 
+        font-family: 'Raleway',sans-serif; 
+        font-weight: 500; 
+        text-transform: uppercase;   
+    }   
+    
+    
+  }
+
+  @media (max-width:710px) {
+
+    .carousel-inner h1 {
+        font-size: 2.7rem;
+        color: white;
+        margin-top: 20%;
+        color: #ffffff; 
+        font-family: 'Raleway',sans-serif; 
+        font-weight: 800; 
+     }
+
+     .carousel-inner p {
+        font-size: 1rem;
+        color: white;
+        margin-top: -.5%;
+        letter-spacing: 1rem;
+        color: #ffffff; 
+        font-family: 'Raleway',sans-serif; 
+        font-weight: 500; 
+        text-transform: uppercase;   
+    }  
+    
+    
+  }
+
+ 
